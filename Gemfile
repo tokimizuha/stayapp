@@ -54,3 +54,19 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'devise'
+
+gem 'devise-i18n'
+gem 'devise-i18n-views'
+
+#ファイルのアップロード機能を簡単に追加することが出来るgem
+gem 'carrierwave', '~> 2.0'
+
+#バグを調べる
+gem 'pry-rails'
+
+#検索フォーム追加
+gem 'ransack'
+
+gem 'rails-i18n'
